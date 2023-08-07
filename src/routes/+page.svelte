@@ -41,12 +41,15 @@
 	];
 </script>
 
-<div class="w-full font-bold">
+<div class="mx-auto flex w-fit flex-col gap-10">
 	{#each bosses as boss}
-		<div class="">
-			<h3>{boss.name}</h3>
-			<h4>{boss.userDeaths}</h4>
-			<button on:click={() => (boss = addDeath(boss))}>Add Death</button>
+		<div class="text-center">
+			<div class="text-lg">{boss.name}</div>
+			<div>{boss.userDeaths} Deaths</div>
+			<button
+				class="rounded bg-amber-300 px-2 py-1 font-bold text-white transition-all duration-200 hover:bg-amber-400"
+				on:click={() => (boss = addDeath(boss))}>Add Death</button
+			>
 		</div>
 	{/each}
 </div>
