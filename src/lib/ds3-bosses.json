@@ -1,0 +1,177 @@
+[
+	{
+		"name": "Iudex Gundyr",
+		"totalDeaths": 6,
+		"userDeaths": 0,
+		"avgDeaths": 1,
+		"img": "iudex-gundyr"
+	},
+	{
+		"name": "Vordt of the Boreal Valley",
+		"totalDeaths": 16,
+		"userDeaths": 0,
+		"avgDeaths": 2.67,
+		"img": "vordt-of-the-boreal-valley"
+	},
+	{
+		"name": "Curse-rotted Greatwood",
+		"totalDeaths": 28,
+		"userDeaths": 0,
+		"avgDeaths": 4.67,
+		"img": "curse-rotted-greatwood"
+	},
+	{
+		"name": "Crystal Sage",
+		"totalDeaths": 21,
+		"userDeaths": 1,
+		"avgDeaths": 3.5,
+		"img": "crystal-sage"
+	},
+	{
+		"name": "Deacons of the Deep",
+		"totalDeaths": 2,
+		"userDeaths": 0,
+		"avgDeaths": 0.33,
+		"img": "deacons-of-the-deep"
+	},
+	{
+		"name": "Abyss Watchers",
+		"totalDeaths": 86,
+		"userDeaths": 1,
+		"avgDeaths": 14.33,
+		"img": "abyss-watchers"
+	},
+	{
+		"name": "High Lord Wolnir",
+		"totalDeaths": 3,
+		"userDeaths": 0,
+		"avgDeaths": 0.5,
+		"img": "high-lord-wolnir"
+	},
+	{
+		"name": "Old Demon King",
+		"totalDeaths": 9,
+		"userDeaths": 0,
+		"avgDeaths": 1.5,
+		"img": "old-demon-king"
+	},
+	{
+		"name": "Pontiff Sulyvahn",
+		"totalDeaths": 161,
+		"userDeaths": 5,
+		"avgDeaths": 26.83,
+		"img": "pontiff-sulyvahn"
+	},
+	{
+		"name": "Aldrich, Devourer of Gods",
+		"totalDeaths": 34,
+		"userDeaths": 4,
+		"avgDeaths": 5.67,
+		"img": "aldrich-devourer-of-gods"
+	},
+	{
+		"name": "Yhorm the Giant",
+		"totalDeaths": 8,
+		"userDeaths": 1,
+		"avgDeaths": 1.33,
+		"img": "yhorm-the-giant"
+	},
+	{
+		"name": "Dancer of the Boreal Valley",
+		"totalDeaths": 55,
+		"userDeaths": 0,
+		"avgDeaths": 9.17,
+		"img": "dancer-of-the-boreal-valley"
+	},
+	{
+		"name": "Oceiros, the Consumed King",
+		"totalDeaths": 10,
+		"userDeaths": 0,
+		"avgDeaths": 1.67,
+		"img": "oceiros-the-consumed-king"
+	},
+	{
+		"name": "Dragonslayer Armour",
+		"totalDeaths": 30,
+		"userDeaths": 0,
+		"avgDeaths": 5,
+		"img": "dragonslayer-armour"
+	},
+	{
+		"name": "Champion Gundyr",
+		"totalDeaths": 53,
+		"userDeaths": 3,
+		"avgDeaths": 8.83,
+		"img": "champion-gundyr"
+	},
+	{
+		"name": "Lorian, Elder Prince and Lothric, Younger Prince",
+		"totalDeaths": 72,
+		"userDeaths": 3,
+		"avgDeaths": 12,
+		"img": "lorian-and-lothric"
+	},
+	{
+		"name": "Ancient Wyvern",
+		"totalDeaths": 3,
+		"userDeaths": 1,
+		"avgDeaths": 0.5,
+		"img": "ancient-wyvern"
+	},
+	{
+		"name": "Nameless King",
+		"totalDeaths": 81,
+		"userDeaths": 8,
+		"avgDeaths": 16.2,
+		"img": "nameless-king"
+	},
+	{
+		"name": "Soul of Cinder",
+		"totalDeaths": 37,
+		"userDeaths": 0,
+		"avgDeaths": 7.4,
+		"img": "soul-of-cinder"
+	},
+	{
+		"name": "Sister Friede",
+		"totalDeaths": 51,
+		"userDeaths": 0,
+		"avgDeaths": 10.2,
+		"img": "sister-friede"
+	},
+	{
+		"name": "Gravetender and Wolf",
+		"totalDeaths": 3,
+		"userDeaths": 2,
+		"avgDeaths": 0.6,
+		"img": "gravetender-and-wolf"
+	},
+	{
+		"name": "Demon Prince",
+		"totalDeaths": 62,
+		"userDeaths": 7,
+		"avgDeaths": 10.33,
+		"img": "demon-prince"
+	},
+	{
+		"name": "Darkeater Midir",
+		"totalDeaths": 58,
+		"userDeaths": 4,
+		"avgDeaths": 14.5,
+		"img": "darkeater-midir"
+	},
+	{
+		"name": "Slaveknight Gael",
+		"totalDeaths": 32,
+		"userDeaths": 8,
+		"avgDeaths": 8,
+		"img": "slaveknight-gael"
+	},
+	{
+		"name": "Halflight, Spear of the Church",
+		"totalDeaths": 8,
+		"userDeaths": 0,
+		"avgDeaths": 2,
+		"img": "halflight-spear-of-the-church"
+	}
+]

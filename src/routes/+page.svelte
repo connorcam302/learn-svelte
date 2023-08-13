@@ -1,5 +1,6 @@
 <script lang="ts">
 	import BossTile from '$lib/boss.svelte';
+	import bossesJson from '$lib/ds3-bosses.json';
 
 	type bossType = {
 		name: string;
@@ -9,54 +10,24 @@
 		img: string;
 	};
 
-	let bosses: bossType[] = [
-		{
-			name: 'Abyss Watchers',
-			totalDeaths: 85,
-			userDeaths: 1,
-			avgDeaths: 17,
-			img: 'abyss-watchers'
-		},
-		{
-			name: 'Pontiff Sulyvahn',
-			totalDeaths: 156,
-			userDeaths: 5,
-			avgDeaths: 31.2,
-			img: 'pontiff-sulyvahn'
-		},
-		{
-			name: 'Champion Gundyr',
-			totalDeaths: 50,
-			userDeaths: 3,
-			avgDeaths: 10,
-			img: 'champion-gundyr'
-		},
-		{
-			name: 'Sister Friede',
-			totalDeaths: 51,
-			userDeaths: 0,
-			avgDeaths: 10.2,
-			img: 'sister-friede'
-		},
-		{
-			name: 'Nameless King',
-			totalDeaths: 81,
-			userDeaths: 8,
-			avgDeaths: 16.2,
-			img: 'nameless-king'
-		},
-		{
-			name: 'Dragonslayer Armour',
-			totalDeaths: 30,
-			userDeaths: 0,
-			avgDeaths: 5,
-			img: 'dragonslayer-armour'
-		}
-	];
+	let bosses: bossType[] = bossesJson;
+
+	let currentBoss = bosses[bosses.length - 1];
+
+	let setBoss = (boss: bossType) => {
+		currentBoss = boss;
+	};
 </script>
 
-<div class="mx-auto flex flex-wrap items-center justify-center gap-10">
-	{#each bosses as boss}
-		<BossTile {boss} />
-	{/each}
+<div class="mx-auto flex min-h-screen w-6/12 bg-stone-700">
+	<div class="flex flex-col text-left">
+		{#each bosses as boss}
+			<button class="w-52 px-2 py-1 text-left leading-5" on:click={() => setBoss(boss)}
+				>{boss.name}</button
+			>
+		{/each}
+	</div>
+	<div class="mx-auto">
+		<BossTile bind:boss={currentBoss} />
+	</div>
 </div>
